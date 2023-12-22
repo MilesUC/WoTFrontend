@@ -1,0 +1,119 @@
+.landing_page_image{
+    margin-left: -60vw;
+    margin-top: 10vh;
+}
+
+.login_page_div{
+    margin-top: 23vh;
+}
+
+.images_col{
+    margin-left: 10vw;
+}
+
+.logo_login{
+    width: 10vw;
+}
+
+.woman_image{
+    width: 30vw;
+}
+
+.form_col{
+    margin-left: -15vw;
+    margin-top: 10vh;
+}
+
+.titulo{
+    font-size: 3em;
+    margin-top: 17vh;
+    width: 150vw;
+}
+
+.sub_titulo{
+    width: 90vw;
+    color: #5A5A5A;
+    font-size: 1.8em;
+}
+
+.message_bottom{
+    font-size: 1.8em;
+    color: #5A5A5A;
+    margin-top: -1vh;
+}
+
+.login_button{
+    width: 30vw;
+    height: 8vh;
+    border-radius: 5px;
+    border: 2px solid #5A5A5A;
+    background-color: #5A5A5A;
+    font-size: 1em;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    color: white;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  }
+
+.nombre{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 1.6em;
+    margin-bottom: 2vh;
+}
+
+.form_input{
+    width: 30vw;
+    height: 7vh;
+    border-radius: 5px;
+    border: 2px solid #5A5A5A;
+    font-size: 1.2em;
+    margin-bottom: 2vh;
+}
+
+.olvidar_contra{
+    color: #fc047c;
+    font-size: 1em;
+    margin-left: 15vw;
+}
+
+.register_or{
+    color:#5A5A5A;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.register_link{
+    color:#5A5A5A;
+    &:hover{
+        color:#fc047c;
+    }
+    margin-left: 1.5vw;
+}
+
+.password-input {
+    display: flex;
+    align-items: center;
+}
+  
+.input-contenedor {
+    position: relative;
+}
+
+.mostrar-password {
+    position: absolute;
+    top: 25%;
+    right: 2vw;
+    opacity: 1;
+}

@@ -1,0 +1,62 @@
+.rectangulo-pink {
+    background-color: rgb(254, 251, 253);
+    border-radius: 10px;
+    width: auto; 
+    max-width: 1200px; 
+    height: auto;
+    padding: 10px; 
+    text-align: center;
+    margin-left: 90px;
+    margin-bottom: 40px;
+    border: solid rgb(219, 219, 219);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+      
+  }
+
+  .button-ros{
+    color: white;
+    background-color:#ff67b0;
+    border: solid black;
+    width: 200px;
+    height: 50px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .button-rosadoo{
+    color: white;
+    background-color:#ff67b0;
+    border: solid black;
+    width: 200px;
+    height: 50px;
+
+    position: absolute;
+    top: 20px;
+    right: 300px;
+  }
+
+
+  .clase-email{
+    color: black;
+
+    position: absolute;
+    top: 20px;
+    left: 400px;
+  }
+
+  .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.div_usuarias{
+  margin-bottom: 20vh;
+}

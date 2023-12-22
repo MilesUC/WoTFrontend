@@ -1,0 +1,93 @@
+.register_div{
+    margin-top: 23vh;
+}
+
+.register_form_col{
+    margin-left: -20vw;
+    text-align: center;
+}
+
+.sub_titulo_reg{
+    width: 90vw;
+    color: #5A5A5A;
+    font-size: 2em;
+    margin-left: -22vw;
+}
+
+.social_register_div{
+    margin-top: -4vh;
+    margin-left: 18vw;
+}
+
+.social_register{
+    margin-left: -2vw;
+}
+
+.title_social_register{
+    margin-left: 2vw;
+    font-weight: 0.8px;
+    color: #5A5A5A;
+}
+
+.social_register_button{
+    height: 5vh;
+    width: 8vw;
+    background-color: transparent;
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+    &:hover{
+        transform: scale(1.1);
+        background-color: #5A5A5A;
+    }
+}
+
+.register_button{
+    width: 30.5vw;
+    height: 8vh;
+    margin-left: 8vw;
+    border-radius: 5px;
+    border: 2px solid #5A5A5A;
+    background-color: #5A5A5A;
+    color: white;
+    font-size: 1em;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.box_reg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 25vw;
+  }
+
+.input_reg{
+    width: 30vw;
+    height: 5vh;
+    margin-left: 8vw;
+    border-radius: 5px;
+    border: 2px solid #5A5A5A;
+    font-size: 1.4em;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contra_reg{
+    width: 30vw;
+    height: 5vh;
+    margin-left: 8vw;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 1.6em;
+
+}
+
+.confirm_contra_reg{
+    width: 30vw;
+    height: 5vh;
+    margin-left: 8vw;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 1.6em;
+
+}

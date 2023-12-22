@@ -1,0 +1,299 @@
+.center-content{
+    text-align: center;
+}
+
+.create_pen{
+  margin-left: 60vw;
+  color: black;
+  &:hover{
+    transform: scale(1.1);
+    color: #fc047c;
+  }
+  margin-bottom: 5vh;
+}
+
+.create_community_form {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  margin: auto;
+  margin-bottom: 10vh;
+  border: 1px solid #fc047c;
+  padding: 5vw;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.15); /* Red color with 50% opacity */
+}
+
+.title{
+    font-size: 3em;
+    margin-top: 17vh;
+}
+
+.sub_title{
+    width: 50vw;
+    color: black;
+    font-size: 2.4em;
+    margin: auto;
+}
+
+.create_title{
+  margin-right: 12vw;
+  color: black;
+  font-size: 1.6em;
+  margin-top: -5vh;
+}
+
+.nombre{
+  width: 20vw;
+  height: 3vh;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 1em;
+}
+
+.descripcion{
+    width: 20vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 1em;
+}
+
+.create_form_subtitle{
+  margin-right: 30vw;
+}
+
+.buttons_row{
+  margin-left: -20vw;
+}
+
+.create_community_button{
+    width: 3vw;
+    height: 4vh;
+    border-radius: 20px;
+    border: 2px solid #fc047c;
+    background-color: #fc047c;
+    font-size: 1em;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 3vw;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.cancel_button{
+    width: 3vw;
+    height: 4vh;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 0.8em;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.communities_title {
+    font-size: 2em;
+    color: black;
+    font-weight: 200;
+    position: relative;
+    margin-top: 5vh;
+  }
+  
+  .communities_title::before {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Adjust the value to control the distance from the text */
+    width: 20vw;
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: #fc047c;
+    transform: scaleX(0); /* Initial state, hidden */
+    transform-origin: 0 50%;
+    transition: transform 0.3s ease-in-out;
+
+  }
+  
+  .communities_title:hover::before {
+    transform: scaleX(1); /* Fully visible on hover */
+    animation: wobble 1s infinite; /* Apply wobble animation */
+  }
+  
+  @keyframes wave {
+    25% {
+      transform: scaleX(1.1) rotate(-1deg);
+    }
+    50% {
+      transform: scaleX(0.9) rotate(1deg);
+    }
+    75% {
+      transform: scaleX(1.1) rotate(-1deg);
+    }
+    100% {
+      transform: scaleX(0.9) rotate(1deg);
+    }
+  }
+
+.community_div_old {
+  border: 0px solid;
+  border-radius: 10px;
+  height: auto; /* Set an initial height of 20vh */
+  min-height: 30vh; /* Set a minimum height of 20vh */
+  width: 20vw;
+  margin: auto;
+  transition: width 0.3s, height 0.3s; /* Add transitions for width and height */
+  background-color: rgba(0, 0, 0, 0.1); /* Red color with 50% opacity */
+}
+
+
+.more_info_button{
+    color:#fc047c;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+.scrollable_div {
+    max-height: 300px; /* Set the maximum height as needed */
+    overflow-y: auto; /* Add vertical scroll when content exceeds the height */
+    border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+  }
+
+.community-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    gap: 2px; /* Adjust the gap between columns */
+    width: 60vw;
+    margin: auto;
+  }
+
+.community_title_old{
+    font-size: 1.2em;
+    color: black;
+}
+
+.community_description_old {
+  font-size: 1em;
+  color: #fc047c;
+  max-width: 70%;
+  width: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: auto;
+  text-indent: 10px; /* Adjust the value as needed */
+}
+
+
+.community_description::-webkit-scrollbar {
+  width: 0.5em; /* Width of the scrollbar */
+  background-color: transparent; /* Make the scrollbar area transparent */
+}
+
+.community_description::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make the scrollbar thumb transparent */
+}
+
+
+.community_followers_old{
+  font-size: 0.8em;
+  margin-top: 8vh;
+}
+
+.like_button{
+  color:#fc047c;
+  position: absolute;
+  margin-left:7vw;
+  &:hover{
+    transform: scale(1.2);
+    fill: #fc047c;
+  }
+}
+
+.liked_button{
+  color:#fc047c;
+  position: absolute;
+  margin-left:7vw;
+  fill: #fc047c;
+  &:hover{
+    transform: scale(1.2);
+    fill: transparent;
+  }
+}
+
+.show_icon{
+    margin-left: 2vw;
+    color:#fc047c;
+}
+
+.colapse_icon{
+    margin-left: 2vw;
+    color:#fc047c;
+}
+
+.options_your_community {
+    display: flex; /* Use flexbox to arrange columns horizontally */
+    float: right;
+  }
+  
+  .row {
+    display: flex; /* Use flexbox to arrange columns horizontally */
+  }
+  
+  .col {
+    margin-right: 10px; /* Add some spacing between columns */
+  }
+
+.options_buttons{
+    color: black;
+    &:hover{
+        transform: scale(1.2);
+        color:#fc047c;
+    }
+}
+
+.center-content{
+  margin-bottom: 20vh;
+}
+
+
+.edit_community_form {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  margin: auto;
+  margin-bottom: 10vh;
+  border-radius: 5px;
+  background-color: transparent; /* Red color with 50% opacity */
+}
+
+.edit_community_button{
+  width: 3vw;
+  height: 4vh;
+  border-radius: 20px;
+  font-size: 1em;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background-color: #fc047c;
+  &:hover{
+      transform: scale(1.1);
+  }
+}
+
+.edit_cancel_button{
+  width: 3vw;
+  height: 4vh;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 0.8em;
+  &:hover{
+      transform: scale(1.1);
+  }
+}
+
+.edit_form_subtitle{
+  font-size: 1em;
+  color:black;
+  text-align:left;
+}

@@ -1,0 +1,102 @@
+/* Header.css */
+.logo {
+    font-size: 2em;
+    color: #fc047c;
+    float:left;
+    margin-left: 2em;
+}
+
+.header_navigation {
+    margin-left: 50vw;
+}
+
+.navlink {
+    font-size: 1.4em;
+    margin-right: 2vw;
+}
+.navlink-text {
+    display: block;
+    text-align: center;
+    font-size: 1.5vh; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    
+}
+.icon-container {
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    padding-top: 3.5vh;
+    list-style: none;
+}
+  
+li {
+    display: inline;
+    margin-right: 20px; /* Add spacing between links */
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    &:hover{
+        color: #fc047c;
+    }
+}
+
+.login_button {
+    font-size: 1.4em;
+    background-color: #fc047c;
+    border: 2px solid #fc047c;
+    border-radius: 5px;
+    transition: transform 0.2s ease; /* Add a smooth transition effect */
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+.navlink_icon{
+    color: #5A5A5A;
+    width:2.6vw;
+    height:auto;
+    &:hover{
+        transform: scale(1.2);
+        fill: #fc047c;
+    }
+}
+
+.navbar_icon{
+    width: 3vw;
+    fill:#5A5A5A;
+    &:hover{
+        transform: scale(1.2);
+        fill: #fc047c;
+    }
+}
+
+.communities_icon {
+    fill: #5a5a5a;
+    width: 4vw;
+    &:hover{
+        transform: scale(1.2);
+        fill: #fc047c !important;
+    }
+}
+
+.communities_icon.hovered{
+    fill: #fc047c;
+}
+
+.profile_icon{
+    width: 2.5vw;
+    fill:#5a5a5a;
+    &:hover{
+        transform: scale(1.2);
+        fill: #fc047c !important; 
+    }
+}
+
+.profile_icon.hovered{
+    fill: #fc047c;
+}
